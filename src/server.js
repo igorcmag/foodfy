@@ -25,4 +25,4 @@ server.get('/receitas', (req, res) => {
     return res.render('recipes');
 });
 
-server.listen(3000, () => console.log('ok'));
+server.listen(process.env.PORT || 3000, () => console.log('ok'));
