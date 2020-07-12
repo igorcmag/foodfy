@@ -139,5 +139,49 @@ footer{
 
 #recipes{
     max-width: 960px;
-    margin: 0 auto;
+    margin: 20px auto 0 auto;
+}
+
+/* === RECIPE === */
+
+#recipe{
+    max-width: 960px;
+    margin: 20px auto 0 auto;
+}
+
+#recipe img{
+    border-radius: 15px;
+}
+
+#title_info{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#title_info h1{
+    font-size: 36px;
+    color: #111111;
+}
+
+#title_info p{
+    font-size: 20px;
+    color: #777777;
+}
+
+.recipe_section{
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.recipe_section h2{
+    font-size: 24px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.recipe_section ul{
+    margin-left: 19px;
 }
