@@ -1,7 +1,9 @@
 module.exports = [
     {
       image: 'assets/burger_big.png',
+      thumbnail: 'assets/burger.png',
       title: 'Triplo bacon burger',
+      title_id: 'triplo-bacon-burger',
       author: 'Jorge Relato',
       ingredients: [
         '3 kg de carne moída (escolha uma carne magra e macia)',
@@ -24,7 +26,9 @@ module.exports = [
     },
     {
       image: 'assets/pizza_big.png',
+      thumbnail: 'assets/pizza.png',
       title: 'Pizza 4 estações',
+      title_id: 'pizza-4-estacoes',
       author: 'Fabiana Melo',
       ingredients: [
         '1 xícara (chá) de leite',
@@ -50,8 +54,10 @@ module.exports = [
       information: 'Pizza de liquidificador é uma receita deliciosa e supersimples de preparar. Feita toda no liquidificador, ela é bem prática para o dia a dia. Aqui no TudoGostoso você também encontra diversas delícias práticas feitas no liquidificador: massa de panqueca, torta de frango de liquidificador, pão de queijo de liquidificador, bolo de banana, bolo de chocolate e muito mais!'
     },
     {
-      image: 'assets/asinha_big.png',
+      image: 'assets/asinhas_big.png',
+      thumbnail: 'assets/asinhas.png',
       title: 'Asinhas de frango ao barbecue',
+      title_id: 'asinhas-de-frango-ao-barbecue',
       author: 'Vania Steroski',
       ingredients: [
         '12 encontros de asinha de galinha, temperados a gosto',
@@ -68,7 +74,9 @@ module.exports = [
     },
     {
       image: 'assets/lasanha_big.png',
+      thumbnail: 'assets/lasanha.png',
       title: "Lasanha mac n' cheese",
+      title_id: 'lasanha-mac-n-ncheese',
       author: 'Juliano Vieira',
       ingredients: [
         'massa pronta de lasanha',
@@ -88,7 +96,9 @@ module.exports = [
     },
     {
       image: 'assets/espaguete_big.png',
+      thumbnail: 'assets/espaguete.png',
       title: 'Espaguete ao alho',
+      title_id: 'espaguete-ao-alho',
       author: 'Júlia Kinoto',
       ingredients: [
         '1 pacote de macarrão 500 g (tipo do macarrão a gosto)',
@@ -112,7 +122,9 @@ module.exports = [
     },
     {
       image: 'assets/doce_big.png',
+      thumbnail: 'assets/doce.png',
       title: 'Docinhos pão-do-céu',
+      title_id: 'docinhos-pao-do-ceu',
       author: 'Ricardo Golvea',
       ingredients: [
         '1 kg de batata - doce',

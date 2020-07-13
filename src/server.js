@@ -16,7 +16,7 @@ nunjucks.configure('src/views', {
 server.use(express.static('public'));
 
 server.get('/', (req, res) => {
-    return res.render('index');
+    return res.render('index', {recipes: recipes});
 });
 
 server.get('/sobre', (req, res) => {
@@ -24,11 +24,12 @@ server.get('/sobre', (req, res) => {
 });
 
 server.get('/receitas', (req, res) => {
-    return res.render('recipes');
+    return res.render('recipes', {recipes: recipes});
 });
 
-server.get('/receita', (req, res) => {
-    return res.render('recipe', {recipe: recipes[0]});
+recipes.forEach((recipe) => {
+    server.get(`/${recipe.title_id}`, (req, res) => {
+        return res.render('recipe', {recipe: recipe});
+    });
 });
-
 server.listen(process.env.PORT || 3000, () => console.log('ok'));

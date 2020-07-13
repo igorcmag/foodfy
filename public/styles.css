@@ -75,6 +75,11 @@ header a{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+#cards a{
+    text-decoration: none;
+    color: #111111;
+}
+
 .card{
     width: 300px;
     margin: 0 auto 30px auto;
